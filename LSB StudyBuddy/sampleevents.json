@@ -1,0 +1,176 @@
+{
+    "questions": {
+        "missed":
+        [
+         {
+         "QID": "Q1",
+         "text": "Our records say that you missed this appointment.  Please confirm.",
+         "options":
+         [
+          {
+          "AID": "A1",
+          "text": "Yes, I missed this appointment.",
+          "flag": "",
+          "next": "Q2"
+          },
+          {
+          "AID": "A2",
+          "text": "No, I attended this appointment.",
+          "flag": "",
+          "next": "end"
+          }
+          ]
+         },
+         {
+         "QID": "Q2",
+         "text": "Why did you miss this appointment?",
+         "options":
+         [
+          {
+          "AID": "A3",
+          "text": "I wasn't feeling well.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A4",
+          "text": "I had a transportation issue.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A5",
+          "text": "I was still at a previous appointment.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A6",
+          "text": "I missed it for another reason.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A7",
+          "text": "Additional information",
+          "flag": "textbox",
+          "next": ""
+          }
+          ]
+         },
+         {
+         "QID": "end",
+         "text": "Thank you for your response.",
+         "options": ""
+         }
+         ],
+        "soon":
+        [
+         {
+         "QID": "Q4",
+         "text": "Will you be able to attend?",
+         "options":
+         [
+          {
+          "AID": "A8",
+          "text": "Yes, I'll be there.",
+          "next": "end",
+          "flag": ""
+          },
+          {
+          "AID": "A9",
+          "text": "Yes, but I'll be late.",
+          "next": "Q5",
+          "flag": ""
+          },
+          {
+          "AID": "A10",
+          "text": "No, I can't attend.",
+          "next": "Q6",
+          "flag": ""
+          },
+          ]
+         },
+         {
+         "QID": "Q5",
+         "text": "Why will you be late?",
+         "options":
+         [
+          {
+          "AID": "A11",
+          "text": "I'm not feeling well.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A12",
+          "text": "I have a transportation issue.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A13",
+          "text": "I'm still at a previous appointment.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A14",
+          "text": "I have another reason.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A15",
+          "text": "When approximately would your come?",
+          "flag": "timepicker",
+          "next": ""
+          },
+          {
+          "AID": "A16",
+          "text": "Additional information",
+          "flag": "textbox",
+          "next": ""
+          }
+          ]
+         },
+         {
+         "QID": "Q6",
+         "text": "Could you tell us why you can't attend?",
+         "options":
+         [
+          {
+          "AID": "A17",
+          "text": "I'm not feeling well.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A18",
+          "text": "I have a transportation issue.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A19",
+          "text": "I'm still at a previous appointment.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A20",
+          "text": "I have another reason.",
+          "flag": "",
+          "next": "end"
+          },
+          {
+          "AID": "A21",
+          "text": "Additional information",
+          "flag": "textbox",
+          "next": ""
+          }
+          ]
+         }
+         ]
+    }
+}
