@@ -1,5 +1,4 @@
-# ProtocolConnect-iOS
-Protocol Connect (iOS App)
+# Protocol Connect (iOS App)
 Protocol Connect is a smartphone app and web-based portal designed to enable more efficient communication between clinical staff and study subjects about scheduling. Research subjects can communicate any schedule changes in real-time and via one mechanism to research staff, saving both research staff and subjects’ time and increasing the likelihood of study protocol compliance.
 
 IMPORTANT
